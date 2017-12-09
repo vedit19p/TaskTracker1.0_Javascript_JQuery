@@ -1,0 +1,147 @@
+html,
+body,
+col,
+div,
+header,
+table,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    min-height: auto;
+    width: 100%;
+    color: #394264;
+    background-color: #394264;
+    /* Helvetica-based sans-serif stack */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13.75px;
+}
+
+header {
+    padding: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1rem solid #e2e2e2;
+    border-left: 1rem solid #e2e2e2;
+    border-right: 1rem solid #e2e2e2;
+}
+
+header > h1,
+header > h2 {
+    margin: 0;
+}
+
+header > h2 {
+    color: #ecf0f1;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+table {
+    padding: 0.25rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: .4rem;
+}
+
+td {
+    padding: .75rem;
+}
+
+tr:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: yellow;
+}
+
+td:nth-child(odd) {
+    font-weight: 800;
+}
+
+#container {
+    /* Height/Width of the design PNG. */
+    height: 638px;
+    width: 800px;
+    background-color: #f0f0f0;
+    margin: 2rem auto;
+}
+
+#container:after {
+    clear: both;
+}
+
+#left-pane,
+#right-pane {
+    padding: 1.25rem;
+    padding-top: 1.5rem;
+    background-color: #fff;
+    width: 42.5%;
+    min-height: 410px;
+    position: relative;
+}
+
+#left-pane > h2,
+#right-pane > h2 {
+    /* Modern Georgia-based serif stack */
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+#left-pane {
+    float: left;
+    border-left: 1rem solid #f0f0f0;
+}
+
+#right-pane {
+    float: right;
+    border-right: 1rem solid #f0f0f0;
+}
+
+input[type="date"],
+input[type="text"] {
+    border-color: #fff;
+    border-radius: 0.25em;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1.25rem;
+    margin: 5px 1px 3px 0px;
+    padding: .55rem;
+    width: 95%;
+    background-color: #50597b;
+}
+
+label {
+    font-weight: 500;
+}
+
+#submit {
+    border-color: #888;
+    border-radius: 0.25em;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    /* Modern Georgia-based serif stack */
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
+    padding: .55em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e64c65;
+}
